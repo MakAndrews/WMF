@@ -1,0 +1,39 @@
+/*reset styles*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*blocks*/
+#mainContainer {
+  position: fixed;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  min-width: 250px;
+  padding: 20px;
+  border: 1px solid darkgray;
+  border-radius: 2%;
+}
+
+/*elements*/
+#SignInTable {
+    display: none;
+}
+
+/*modifiers*/
+.fs36 {
+  font-size: 36px;
+}
+.dBlue {
+  color: DodgerBlue
+}
+
+@media screen and (max-width: 1024px) {
+  #mainContainer {
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    border: none;
+  }
+}
